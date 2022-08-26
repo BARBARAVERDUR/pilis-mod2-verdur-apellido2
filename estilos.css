@@ -43,17 +43,47 @@ body {
 
 .contenedor .footer {
     grid-area: footer;
-    background-color: #010a1c;
-    color: aliceblue;
+    background-color: white;
+    height: 100px;
+    border-top: 1px #490009 solid;
+    display: block;
+
+}
+
+/* ------------------- footer ------------------- */
+
+.wsp{
+   color:  #490009;
+   text-align: center;
+   margin-left: 40%;
+   width: 20%;
+   font-size: 2em;
+
+}
+
+#logo-wsp{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 1em;
+}
+
+#nombres{
+    width: 40%;
+    font-size: 1em;
+    margin-left: 30%;  
+    letter-spacing: 2px;
 }
 
 /* ------------------- navbar ------------------- */
+
 
 a {
     text-decoration: none;
 }
 
-#navbar {
+#navbar  {
     background-color: #490009;
     height: fit-content;
 
