@@ -1,6 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Aboreto', cursive;
 }
 
 html,
@@ -193,6 +197,7 @@ a {
 .section p {
     padding: 10%;
     text-align: justify;
+    text-transform: lowercase;
 }
 
 #home,
